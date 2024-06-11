@@ -5,13 +5,15 @@
     <artifactId>tugasbesarmkepl</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
+    <name>tugasbesarmkepl</name>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>main.kiwijawir.Kiwijawir</exec.mainClass>
     </properties>
-    <name>tugasbesarmkepl</name>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -20,16 +22,12 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-      <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/Law19/Continuous-Testing-cots</url>
-    </repository>
-  </distributionManagement>
 
-  <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Law1911/coba-tubesmkpl</url>
+        </repository>
+    </distributionManagement>
 </project>
